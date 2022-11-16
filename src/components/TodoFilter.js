@@ -12,21 +12,21 @@ const TodoFilter = () => {
                     name="filterTodo"
                     value="no-filter"
                 />
-                <label>All</label>
+                <label>tous</label>
                 <input
                     onChange={(e) => dispatch(filterTodo(e.target.value))}
                     type="radio"
                     name="filterTodo"
                     value="done"
                 />
-                <label>Done</label>
+                <label>Faite</label>
                 <input
                     onChange={(e) => dispatch(filterTodo(e.target.value))}
                     type="radio"
                     name="filterTodo"
                     value="not-done"
                 />
-                <label>Not Done</label>
+                <label>en attente </label>
             </form>
         </div>
     )

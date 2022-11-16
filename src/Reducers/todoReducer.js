@@ -4,17 +4,17 @@ import { ADD__TODO, CHECKED__TODO, DELETE__TODO, FILTER__TODO } from "../Actions
 const initState = [
     {
         id: uuidv4(),
-        title: "Work out at the gym",
+        title: "faire du sport ",
         isDone: false
     },
     {
         id: uuidv4(),
-        title: "Study for gmc",
+        title: "lire un livre ",
         isDone: false
     },
     {
         id: uuidv4(),
-        title: "Go out with my friends",
+        title: "regarder un film ",
         isDone: false
     }
 ]

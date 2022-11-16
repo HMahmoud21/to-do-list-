@@ -6,7 +6,7 @@ import TodoFilter from './components/TodoFilter';
 function App() {
   return (
    
-    <div className="App-header">
+    <div>
       <h1>Bonjour ton liste est prete </h1>
       <TodoAdd />
       <TodoFilter />
